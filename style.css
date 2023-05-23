@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#contact a {
+    color: white;
+}
+
+.right a {
+    color: black;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    /* max-height: 1450px; */
+    overflow: auto;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.flexi {
+    display: flex;
+    overflow: hidden;
+}
+
+.left {
+    min-width: 327px;
+    background-color: #335384;
+    color: #FFFFFF;
+    overflow: hidden;
+    flex-shrink: 0.8;
+
+}
+
+.right {
+    max-width: 974px;
+}
+
+
+img {
+    position: relative;
+    top: 0.5%;
+    left: 50%;
+    /* height: 12%; */
+    border-radius: 50%;
+    transform: translate(-50%);
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 3%;
+}
+
+.left section {
+    padding-top: 15%;
+    padding-left: 5%;
+}
+
+.left section ul {
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.left section ul li {
+    padding-top: 5%;
+}
+
+#contact ul li {
+    text-align: left;
+    list-style: none;
+    letter-spacing: 0.5px;
+}
+
+#contact ul li:hover:nth-child(3) {
+    letter-spacing: 1px;
+}
+
+
+#contact ul li:hover:nth-child(4) {
+    letter-spacing: 1px;
+}
+
+#contact ul li i {
+    text-align: left;
+    letter-spacing: 15px;
+}
+
+.right section {
+    padding-left: 5%;
+    font-size: 1.2em;
+}
+
+.right section ul {
+    padding-left: 5%;
+}
+
+.right section ul li {
+    font-size: 1.3rem;
+}
+
+
+.right header h1 {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    color: #335384;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.right header p {
+    /* border-top: #335384 2px solid; */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 5%;
+    font-size: 2.1rem;
+}
+
+.right h2 {
+    font-size: 1.75rem;
+    margin: 3% 0 1.5%;
+    letter-spacing: 5px;
+    color: #4a9fd1df;
+}
+
+.right p {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+#practice h3 {
+    margin-top: 3%;
+}
+
+#practice h3 i {
+    margin-left: 8px;
+}
+
+#practice h3 i:hover {
+    transform: scale(1.1);
+}
+
+#about p {
+    padding-right: 3%;
+}
+
+.right footer p {
+    margin-top: 8%;
+    font-size: 12px;
+    text-align: justify;
+
+}
+
+
+#certyfikaty ul li:hover {
+    list-style: circle;
+    /* letter-spacing: 0.5px; */
+    transition: all 0.3s;
+    transform: scale(1.01);
+}

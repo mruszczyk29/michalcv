@@ -6,7 +6,7 @@ Moje CV w formacie HTML, które można znaleźć na tej stronie. Strona została
 
 * "index.html" - główny plik HTML zawierający całą treść CV.
 * "style.css" - plik CSS odpowiedzialny za stylizację strony.
-* "me.jpg" - plik jpg zawierający moje zdjęcie.
+* "me.jpg" - plik JPG zawierający moje zdjęcie.
 
 ## Jak korzystać z tego kodu
 

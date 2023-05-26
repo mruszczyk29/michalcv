@@ -4,9 +4,9 @@ Moje CV w formacie HTML, które można znaleźć na tej stronie. Strona została
 
 ## Struktura projektu
 
-* "index.html" - główny plik HTML zawierający całą treść CV.
-* "style.css" - plik CSS odpowiedzialny za stylizację strony.
-* "me.jpg" - plik JPG zawierający moje zdjęcie.
+* 'index.html' - główny plik HTML zawierający całą treść CV.
+* 'style.css' - plik CSS odpowiedzialny za stylizację strony.
+* 'me.jpg' - plik JPG zawierający moje zdjęcie.
 
 ## Jak korzystać z tego kodu
 
